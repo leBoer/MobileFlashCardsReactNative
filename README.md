@@ -8,7 +8,7 @@ NOTE: Due to problems with setting up an Android emulator, this project has only
 
 To get started running this project:
 * Clone this project to a local directory
-    - `cd ProjectReadable`
+    - `cd MobileFlashCardsReactNative`
 
 * Install and start app 
     - `yarn install`
