@@ -38,7 +38,7 @@ export default class Questions extends Component {
     correct = () => {
         const index = this.state.deck.questions.indexOf(this.state.activeCard);
         let newScore = this.state.score;
-        // I do this instead of .push in case I want to be able to go back and forth through the questions
+        // I do this instead of .push in case I want to be able to go back and forth through the questions in the future
         newScore[index] = 1;
 
         this.setState({
@@ -50,7 +50,7 @@ export default class Questions extends Component {
     incorrect = () => {
         const index = this.state.deck.questions.indexOf(this.state.activeCard);
         let newScore = this.state.score;
-        // I do this instead of .push in case I want to be able to go back and forth through the questions
+        // I do this instead of .push in case I want to be able to go back and forth through the questions in the future
         newScore[index] = 0;
 
         this.setState({
