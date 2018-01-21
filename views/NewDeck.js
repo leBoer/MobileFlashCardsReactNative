@@ -13,8 +13,6 @@ import TextButton from '../components/TextButton';
 import TextInput from '../components/TextInput';
 import { addDeck } from '../actions';
 import { saveDeckTitle } from '../utils/api';
-import { generateId } from '../utils/helpers';
-
 
 class NewDeck extends Component {
     state = {
