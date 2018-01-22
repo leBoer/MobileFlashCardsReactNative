@@ -64,10 +64,8 @@ const styles = StyleSheet.create({
     }
 })
 
-function mapStateToProps (decks) {
-    return {
-        decks
-    };
-}
+const mapStateToProps = (decks) => ({
+    decks
+})
 
 export default connect(mapStateToProps)(DeckOverview);
